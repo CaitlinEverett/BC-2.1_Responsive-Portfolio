@@ -290,13 +290,19 @@ input{
 
 @media screen and (max-width: 640px){
     header{
-		position: fixed;
+		position: static;
 		height: 160px;
 	}
 
     #header_inner{
 		width:100%;
     }
+
+    #main_content {
+	    padding: 0px 20px 140px 20px;
+	    overflow: hidden;
+	    height:auto;
+	}
 
     #name{
 		width:100%;
